@@ -26,6 +26,8 @@ The pipeline utilizes an alignment-free feature extraction method:
 ## Results
 The baseline model successfully classifies unaligned, noisy 150 bp reads with a **93% accuracy rate**. 
 
+![Confusion Matrix](confusion_matrix.png) 
+
 Furthermore, the resulting Confusion Matrix demonstrates strong biological validity. The model effectively isolates *An. arabiensis* with near-perfect precision, while exhibiting minor, expected statistical overlap between the notoriously close sibling species *An. gambiae* and *An. coluzzii*.
 
 ## Future Scope: GSoC 2026 Proposal
